@@ -11,4 +11,6 @@ int main()
     ofstream outfile;
     // membuka file 
     outfile.open("contoh file.txt");
+
+    cout << ">= Menulis file, \'q\' untuk keluar " << endl;
 }
