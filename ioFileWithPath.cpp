@@ -32,4 +32,12 @@ int main()
    }
     // selesai dalam menulis sekarang tutup filenya
     outfile.close();
+
+    // membuat obyek input file stream dalam mode membaca.
+    ifstream infile;
+    //membuka file
+    infile.open(NamaFile + ".txt");
+
+    cout << endl
+         << ">= Membuka dan membaca file " << endl;
 }
